@@ -18,7 +18,7 @@ WebDriver driver;
     public void testOne()
     {
         String test1=System.getProperty("user.dir");
-        System.out.println("Proj Driver Location "+test1);
+        System.out.println("Project Driver Location "+test1);
         System.setProperty("web.chrome.driver",System.getProperty("user.dir")+"\\src\\properties\\chromedriver.exe");
         driver=new ChromeDriver();
         driver.get("https://www.flipkart.com/");
